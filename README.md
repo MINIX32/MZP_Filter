@@ -1,26 +1,21 @@
 # Welkom bij mijn repo
 
-Hieronder zal ik de code plaatsen en updaten zodra er veranderingen zijn of toevoegingen.
+Ben je die achterlijke advertenties op marktplaats ook zo zat? Werkt je oude vertrouwde plugin niet meer waardoor je flink agressief uithaalt naar je omgeving?
 
+Wees gerust! Ik was het namelijk ook spuugzat.
 
-! 11 Nov 2024 https://www.marktplaats.nl
-    ! Geverifieerde verkoper
-    www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-seller-name-container .hz-Icon--signalInfoDefault)
-    ! Topadvertentie
-    www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Topadvertentie))
-    ! Dagtopper
-    www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Dagtopper))
-    ! Bezoek website
-    www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-sellerCoverLink span:contains(Bezoek website))
-    ! Used products
-    www.marktplaats.nl##li.hz-Listing:has-text(/Used Products/i)
-    ! Catawiki
-    www.marktplaats.nl##li.hz-Listing:has-text(/Catawiki/i)
-    ! .nl
-    www.marktplaats.nl##li.hz-Listing:has-text(/.nl/i)
-    ! www
-    www.marktplaats.nl##li.hz-Listing:has-text(/www/i)
-    ! Lege ruimte door verwijderen advertentie
-    www.marktplaats.nl##.hz-Listings__container--cas
-    www.marktplaats.nl###banner-top-dt
-    www.marktplaats.nl###banner-rubrieks-dt
+Hoe blokkeer je advertenties op marktplaats?:
+
+Stap 1. Download ublock origin. (Kan niet op chrome, verwijder die zooi sowieso)
+
+Stap 2. Ga naar de instellingen van ublock origin
+
+Stap 3. Ga naar "my filters"
+
+Stap 4. Voeg [dit](https://github.com/MINIX32/MZP_Filter/blob/a3c9579577ead2d192451e531ed2fbe141126e99/Filter.txt) stuk code toe.
+
+Ik zal proberen om dit regelmatig bij te houden om jullie van updates te voorzien. Met gebruik van de ublock origin plugin zal het heel gemakkelijk zijn om dit regelmatig te doen.
+
+Wat er wordt geblokkeerd:
+
+Ik heb bij alle filters commentaar toegevoegd. Als je het om 1 of andere achterlijke reden toch wel wilt zien, kan je die regel(s) eruit halen. 
