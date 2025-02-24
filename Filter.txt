@@ -19,3 +19,4 @@
   www.marktplaats.nl##.hz-Listings__container--cas 
   www.marktplaats.nl###banner-top-dt
   www.marktplaats.nl###banner-rubrieks-dt
+  www.marktplaats.nl##.bannerContainerLoading
