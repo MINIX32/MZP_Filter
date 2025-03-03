@@ -6,7 +6,7 @@
   ! Dagtopper 
   www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Dagtopper)) 
   ! Bezoek website 
-  www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-sellerCoverLink span:contains(Bezoek website)) 
+  www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-sellerCoverLink span:contains(Naar website)) 
   ! Used products 
   www.marktplaats.nl##li.hz-Listing:has-text(/Used Products/i) 
   ! Catawiki 
