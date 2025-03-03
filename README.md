@@ -10,9 +10,9 @@ Stap 1. Download ublock origin. (Kan niet op chrome, verwijder die zooi sowieso)
 
 Stap 2. Ga naar de instellingen van ublock origin
 
-Stap 3. Ga naar "my filters"
+Stap 3. Ga naar "Filter lists"
 
-Stap 4. Voeg [dit](https://github.com/MINIX32/MZP_Filter/blob/a3c9579577ead2d192451e531ed2fbe141126e99/Filter.txt) stuk code toe.
+Stap 4. Bij Import... voeg deze url toe: `https://raw.githubusercontent.com/MINIX32/MZP_Filter/refs/heads/main/Filter.txt`
 
 Ik zal proberen om dit regelmatig bij te houden om jullie van updates te voorzien. Met gebruik van de ublock origin plugin zal het heel gemakkelijk zijn om dit regelmatig te doen.
 
