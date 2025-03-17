@@ -20,3 +20,4 @@
   www.marktplaats.nl###banner-top-dt
   www.marktplaats.nl###banner-rubrieks-dt
   www.marktplaats.nl##.bannerContainerLoading
+  www.marktplaats.nl###banner-right-container
