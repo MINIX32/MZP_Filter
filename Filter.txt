@@ -21,3 +21,4 @@
   www.marktplaats.nl###banner-rubrieks-dt
   www.marktplaats.nl##.bannerContainerLoading
   www.marktplaats.nl###banner-right-container
+##.hz-Listing:has(.hz-Listing-seller-external-link)
