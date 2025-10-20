@@ -23,14 +23,18 @@
   www.marktplaats.nl###banner-right-container
   www.marktplaats.nl##.hz-Listing:has(.hz-Listing-seller-external-link)
 
-www.2dehands.be##:xpath(//li[contains(@class, 'list') and descendant::span[contains(text(), 'Bezoek website')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'list') and contains(.//a, 'Naar website')])
-www.2dehands.be##:xpath(//li[contains(@class, 'list') and descendant::span[contains(text(), 'Catawiki')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'list') and descendant::span[contains(text(), 'Topadvertentie')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'list') and descendant::span[contains(text(), 'Topzoekertje')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'gallery') and descendant::span[contains(text(), 'Bezoek website')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'gallery') and contains(.//a, 'Naar website')])
-www.2dehands.be##:xpath(//li[contains(@class, 'gallery') and descendant::span[contains(text(), 'Catawiki')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'gallery') and descendant::span[contains(text(), 'Topadvertentie')]])
-www.2dehands.be##:xpath(//li[contains(@class, 'gallery') and descendant::span[contains(text(), 'Topzoekertje')]])
-www.2dehands.be##:xpath(//div[contains(@class, 'Banner')]
+! 20 Oct 2025 https://www.2dehands.be
+  ! Topadvertentie 
+  www.2dehands.be##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Topadvertentie))
+  ! Bezoek website
+  www.2dehands.be##.hz-Listing:has(.hz-Listing-seller-external-link)
+  ! Topzoekertje
+  www.2dehands.be##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Topzoekertje))
+  ! Used Products
+  www.2dehands.be##li.hz-Listing:has-text(/Used Products/i) 
+  ! Catawiki 
+  www.2dehands.be##li.hz-Listing:has-text(/Catawiki/i) 
+  ! Lege ruimte door verwijderen advertentie 
+  www.2dehands.be###banner-rubrieks-dt
+  www.2dehands.be##.bannerContainerLoading
+
