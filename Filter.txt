@@ -22,3 +22,19 @@
   www.marktplaats.nl##.bannerContainerLoading
   www.marktplaats.nl###banner-right-container
   www.marktplaats.nl##.hz-Listing:has(.hz-Listing-seller-external-link)
+
+! 20 Oct 2025 https://www.2dehands.be
+  ! Topadvertentie 
+  www.2dehands.be##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Topadvertentie))
+  ! Bezoek website
+  www.2dehands.be##.hz-Listing:has(.hz-Listing-seller-external-link)
+  ! Topzoekertje
+  www.2dehands.be##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Topzoekertje))
+  ! Used Products
+  www.2dehands.be##li.hz-Listing:has-text(/Used Products/i) 
+  ! Catawiki 
+  www.2dehands.be##li.hz-Listing:has-text(/Catawiki/i) 
+  ! Lege ruimte door verwijderen advertentie 
+  www.2dehands.be###banner-rubrieks-dt
+  www.2dehands.be##.bannerContainerLoading
+
