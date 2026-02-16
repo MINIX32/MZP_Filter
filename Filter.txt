@@ -1,6 +1,6 @@
 ! 11 Nov 2024 https://www.marktplaats.nl 
   ! Geverifieerde verkoper 
-  www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-seller-name-container .hz-Icon--signalInfoDefault) 
+  www.marktplaats.nl##li.hz-Listing:has(.hz-Icon--signalInfoDefault)
   ! Topadvertentie 
   www.marktplaats.nl##li.hz-Listing:has(.hz-Listing-priority--all-devices span:contains(Topadvertentie)) 
   ! Dagtopper 
